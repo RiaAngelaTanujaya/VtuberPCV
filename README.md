@@ -2,7 +2,7 @@
 
 ## Pendahuluan
 
-Proyek ini merupakan aplikasi pelacakan gerakan real-time untuk model VTuber menggunakan OpenCV dan Mediapipe, juga teknologi computer vision dan Live2D. Aplikasi mampu menangkap gerakan wajah, tubuh, tangan, dan kaki pengguna melalui webcam, kemudian mentranslasikan gerakan tersebut ke model Live2D secara real-time.
+Proyek ini merupakan aplikasi pelacakan gerakan real-time untuk model VTuber menggunakan OpenCV dan Mediapipe, juga teknologi computer vision dan Live2D. Aplikasi mampu menangkap gerakan wajah, tubuh, tangan, dan kaki pengguna melalui webcam, kemudian mentranslasikan gerakan tersebut secara real-time.
 
 ## Tujuan Proyek
 
@@ -21,7 +21,7 @@ Mengembangkan sistem tracking komprehensif yang dapat mengendalikan avatar melal
 
 ### Komponen MediaPipe
 
-- Face Mesh: Deteksi 468 landmark pada wajah dengan refinement untuk iris
+- Face Mesh: Deteksi ratusan landmark pada wajah dengan refinement untuk iris
 - Pose Detection: Tracking 33 titik landmark pada tubuh
 - Hand Tracking: Deteksi 21 landmark per tangan dengan dukungan maksimal 2 tangan
 
@@ -107,7 +107,6 @@ Model tetap di posisi tengah dengan skala default. Hanya orientasi tubuh yang be
 
 Model dapat bergerak mengikuti pergerakan tubuh pengguna dengan fitur:
 - Translasi horizontal dan vertikal
-- Auto-zoom berdasarkan jarak dari kamera
 - Offset vertikal adaptif sesuai skala
 
 Toggle antara mode dilakukan dengan menekan tombol S.
@@ -187,6 +186,7 @@ Potensi peningkatan sistem:
 - Implementasi multi-model support
 - Recording dan playback motion data
 - Kalibrasi otomatis per user
+- Tracking body lebih responsif dan sesuai dengan pergerakan yang ada
 - Support untuk full body tracking dengan sensor tambahan
 - Integration dengan software streaming
 - Optimisasi performa untuk low-end hardware
@@ -195,4 +195,4 @@ Potensi peningkatan sistem:
 
 ## Kesimpulan
 
-Aplikasi berhasil mengintegrasikan multiple tracking systems untuk menciptakan pengalaman VTuber yang responsif dan natural. Kombinasi antara computer vision state-of-the-art dan rendering real-time menghasilkan sistem yang dapat digunakan untuk streaming atau content creation profesional. Sistem smoothing yang comprehensive memastikan gerakan model tetap halus dan realistis meskipun terdapat noise pada detection.
+Aplikasi berhasil mengintegrasikan multiple tracking systems untuk menciptakan projek yang responsif dan cukup natural. Kombinasi antara computer vision state-of-the-art dan rendering real-time menghasilkan sistem yang dapat digunakan untuk streaming atau content creation profesional. Sistem smoothing yang comprehensive memastikan gerakan model tetap halus dan realistis meskipun terdapat noise pada detection.
