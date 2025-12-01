@@ -195,4 +195,4 @@ Potensi peningkatan sistem:
 
 ## Kesimpulan
 
-Aplikasi berhasil mengintegrasikan multiple tracking systems untuk menciptakan projek yang responsif dan cukup natural. Kombinasi antara computer vision state-of-the-art dan rendering real-time menghasilkan sistem yang dapat digunakan untuk streaming atau content creation profesional. Sistem smoothing yang comprehensive memastikan gerakan model tetap halus dan realistis meskipun terdapat noise pada detection.
+Aplikasi berhasil mengintegrasikan multiple tracking systems untuk menciptakan projek yang responsif dan cukup natural, walaupun beberapa pergerakan belum bisa dieskplorasi. Kombinasi antara computer vision state-of-the-art dan rendering real-time menghasilkan sistem yang dapat digunakan untuk streaming atau content creation profesional. Sistem smoothing yang comprehensive memastikan gerakan model tetap halus dan realistis meskipun terdapat noise pada detection. Harapan kedepannya dapat dikembangkan lebih baik dan responsif.
